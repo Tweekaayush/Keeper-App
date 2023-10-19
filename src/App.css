@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+  position: relative;
+  background-color:rgb(235,234,235);
+  min-height: 100vh;
+  padding-bottom: 2.5rem;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}

@@ -1,0 +1,67 @@
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:16px 0;
+    transition: 1s ease-in-out;
+    transition: height 1s;
+}
+form{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    
+}
+
+input, textarea{
+    font-family: "McLaren",cursive;
+    font-size: 1rem;
+    border: none;
+    font-weight: bold;
+    
+}
+
+textarea{
+    font-size:1.5rem ;
+    font-weight: 500;
+    resize: none;
+}
+
+input::placeholder, textarea::placeholder{
+    color:rgb(116, 116, 116);
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    border-bottom: 1px solid rgb(244,177,26);
+}
+
+form > button{
+    font-family: "McLaren",cursive;
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    position: absolute;
+    bottom: -16px;
+    right: 10px;
+    background-color:rgb(244,177,26);
+    color:white;
+    border:none;
+    font-size: 1.2rem;
+}
+
+form > button:hover{
+    background-color:rgb(233, 165, 6);
+    transition: 0.1s ease-in-out;
+}
+
+@media screen and (max-width:480px) {
+    form{
+        width: 350px;
+    }
+}
